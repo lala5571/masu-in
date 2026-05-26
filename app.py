@@ -106,7 +106,7 @@ with col_nav:
                 <div class="logo-sub">AI RESUME BUILDER</div>
             </div>
         </div>
-        <div style="font-size:12px;color:{T2};">Jai Jagannath 🙏</div>
+        <div style="font-size:12px;color:{T2};"></div>
     </div>
     """, unsafe_allow_html=True)
 with col_btn:
