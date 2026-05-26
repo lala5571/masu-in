@@ -159,18 +159,18 @@ with col1:
     linkedin=github=references=""
 
     st.markdown('<div class="sec-title">👤 Basic Info</div>', unsafe_allow_html=True)
-    name = st.text_input("Full Name ⭐", placeholder="Subhankar Padhi")
+    name = st.text_input("Full Name ⭐", placeholder="Enter your full name")
 
     if show_contact:
         st.markdown('<div class="sec-title">📞 Contact Info</div>', unsafe_allow_html=True)
         c1,c2 = st.columns(2)
-        with c1: email = st.text_input("Email", placeholder="subhankar@gmail.com")
-        with c2: phone = st.text_input("Phone", placeholder="9876543210")
-        city = st.text_input("City", placeholder="Hyderabad")
+        with c1: email = st.text_input("Email", placeholder="Enter your email")
+        with c2: phone = st.text_input("Phone", placeholder="Enter your phone number")
+        city = st.text_input("City", placeholder="Enter your city")
 
     if show_summary:
         st.markdown('<div class="sec-title">📝 Job Role</div>', unsafe_allow_html=True)
-        job_role = st.text_input("Target Job Role", placeholder="Python Developer")
+        job_role = st.text_input("Target Job Role", placeholder="Enter your target job role")
 
     if show_skills:
         st.markdown('<div class="sec-title">⚡ Skills ⭐</div>', unsafe_allow_html=True)
@@ -206,8 +206,8 @@ with col1:
     if show_soc:
         st.markdown('<div class="sec-title">🔗 Social Links</div>', unsafe_allow_html=True)
         c1,c2 = st.columns(2)
-        with c1: linkedin = st.text_input("LinkedIn", placeholder="linkedin.com/in/subhankar")
-        with c2: github   = st.text_input("GitHub",   placeholder="github.com/subhankar")
+        with c1: linkedin = st.text_input("LinkedIn", placeholder="Enter your LinkedIn URL")
+        with c2: github   = st.text_input("GitHub",   placeholder="Enter your GitHub URL")
 
     if show_ref:
         st.markdown('<div class="sec-title">👥 References</div>', unsafe_allow_html=True)
