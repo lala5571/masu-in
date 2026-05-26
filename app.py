@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ─── Groq Client ───────────────────────────────────────────────
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key="YOUR_GROQ_KEY_HERE")
 
 # ─── Session State ─────────────────────────────────────────────
 if 'dark_mode' not in st.session_state:
